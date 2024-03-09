@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "http://jfrog.ops.ecsbr.net/artifactory/api/pypi/pypi/simple"
+verify_ssl = false
+
+[[source]]
+name = "jfrog"
+url = "http://jfrog.ops.ecsbr.net/artifactory/api/pypi/pypi-local/simple/"
+verify_ssl = false
+
+[packages]
+sqlalchemy = "*"
+fastapi = "*"
+uvicorn = "*"
+pytest = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.6"
